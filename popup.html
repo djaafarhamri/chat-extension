@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 250px;
+            text-align: center;
+        }
+        input, button {
+            margin: 5px;
+            padding: 10px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <h3>Chat Extension</h3>
+
+    <div id="login-container">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="login-btn">Login</button>
+    </div>
+
+    <div id="chat-container" style="display:none;">
+        <button id="toggleChat">Toggle Chat</button>
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
